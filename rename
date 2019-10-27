@@ -1,0 +1,10 @@
+$payment = \App\Payment::create([
+            'user_id => user()->id,
+        'shop_id' => $shop_id,
+        'amount' => $amount,
+        'transaction_id' => $transaction_id,
+
+        'payment_status' => $payment_status,
+
+        'paymant_method => $paymant_method,
+        ]);

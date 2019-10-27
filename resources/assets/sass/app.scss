@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap/';
+@import '~select2/dist/css/select2.min.css';
+@import '~@fancyapps/fancybox/dist/jquery.fancybox.min.css';
+@import '~sweetalert2/src/sweetalert2.scss';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.osahan-slider {
+    color: red;
+}
+
+.slider-form {
+    top: 24%;
+}
+
+.text-yellow {
+    color: yellow;
+}
